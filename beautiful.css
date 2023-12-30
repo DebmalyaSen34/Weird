@@ -5,19 +5,19 @@
 }
 @font-face {
     font-family: rubik;
-    src: url(../Fonts/RubikDoodleShadow-Regular.ttf);
+    src: url(Fonts/RubikDoodleShadow-Regular.ttf);
 }
 @font-face {
     font-family: changa;
-    src: url(../Fonts/Changa-VariableFont_wght.ttf);
+    src: url(Fonts/Changa-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: silkreg;
-    src: url(../Fonts/Silkscreen-Regular.ttf);
+    src: url(Fonts/Silkscreen-Regular.ttf);
 }
 @font-face {
     font-family: stencil;
-    src: url(../Fonts/BigShouldersStencilDisplay-VariableFont_wght.ttf);
+    src: url(Fonts/BigShouldersStencilDisplay-VariableFont_wght.ttf);
 }
 body{
     margin-block-start: 0px;
