@@ -4,19 +4,19 @@
 }
 @font-face {
     font-family: rubik;
-    src: url("Fonts/RubikDoodleShadow-Regular.ttf");
+    src: url(../Fonts/RubikDoodleShadow-Regular.ttf);
 }
 @font-face {
     font-family: changa;
-    src: url("Fonts/Changa-VariableFont_wght.ttf");
+    src: url(../Fonts/Changa-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: silkreg;
-    src: url("Fonts/Silkscreen-Regular.ttf");
+    src: url(../Fonts/Silkscreen-Regular.ttf);
 }
 @font-face {
     font-family: stencil;
-    src: url("Fonts/BigShouldersStencilDisplay-VariableFont_wght.ttf");
+    src: url(../Fonts/BigShouldersStencilDisplay-VariableFont_wght.ttf);
 }
 body{
     margin-block-start: 0px;
@@ -29,42 +29,6 @@ header{
     align-items: center;
     justify-content: center;
     
-}
-.title{
-    position: relative;
-    background: linear-gradient(135deg, #9643b6, rgb(231, 108, 174));
-    box-shadow: 5px 3px 15px  rgb(231, 108, 174), -5px -3px 15px  #9643b6;
-    width: 10vw;
-    height: 5vh;
-    border-radius: 20px;
-    text-align: center;
-    padding: 3px 0px;
-    font-family: changa;
-    color: white;
-    transition: width 2s, letter-spacing 2s, background-color 2s, box-shadow 2s;
-}
-.title::before{
-    font-family: silkreg;
-    content: "GOT WEIRDER";
-    padding: 5px 0px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(45deg, #f67732e2, rgb(153, 21, 21));
-    opacity: 0;
-    transition: opacity 2s;
-    border-radius: 20PX;
-}
-.title:hover{
-    cursor: pointer;
-    width: 80vw;
-    letter-spacing: 5em;
-    box-shadow: 5px 3px 15px #f67732e2, -5px -3px 15px rgb(153, 21, 21);
-}
-.title:hover::before{
-    opacity: 1;
 }
 .male{
     margin-top: 5px;
@@ -210,7 +174,7 @@ h2:hover{
     position: relative;
     font-family: changa;
     color: white;
-    content: "Kadambi Mridula";
+    content: "K. Mridula";
     opacity: 0;
     transition: opacity 1.5s;
 }
@@ -263,7 +227,7 @@ p{
     overflow: scroll;
     height: 70vh;
 }
-.para2::-webkit-scrollbar, .friend-container::-webkit-scrollba, .para-div::-webkit-scrollbar, body::-webkit-scrollbar{
+.para2::-webkit-scrollbar, .friend-container::-webkit-scrollba, .para-div::-webkit-scrollbar, body::-webkit-scrollbar, nav::-webkit-scrollbar{
     display: none;
 }
 .para-div{
@@ -483,4 +447,74 @@ ul li:hover span {
   nav:hover .img1{
     background-color: #21D4FD;
     background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  }
+  @media all and (max-width: 1080px){
+    .friend-container{
+        width: 80vw;
+        height: 133vh;
+    }
+    .friend-container img{
+        width: 80vw;
+    }
+    .sragvi-div .two-one{
+        width: 60%;
+    }
+    .sragvi-div .two-one:hover{
+        width: 100%;
+    }
+    nav{
+        overflow-x: scroll;
+    }
+    nav img{
+        width: 50px;
+        padding: 2px;
+    }
+    nav .img1{
+        width: 50px;
+        height: 50px;
+    }
+    .para2{
+        height: 70.8vh;
+    }
+    @media all and (min-width: 360px){
+        .title{
+            position: relative;
+            background: linear-gradient(135deg, #9643b6, rgb(231, 108, 174));
+            box-shadow: 5px 3px 15px  rgb(231, 108, 174), -5px -3px 15px  #9643b6;
+            width: 30vw;
+            height: 4vh;
+            border-radius: 20px;
+            text-align: center;
+            font-family: changa;
+            color: white;
+            font-size: 1em;
+            transition: width 2s, letter-spacing 2s, background-color 2s, box-shadow 2s;
+        }
+        .title::before{
+            font-family: silkreg;
+            content: "CAINCO & METH";
+            padding: 5px 0px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(45deg, #f67732e2, rgb(153, 21, 21));
+            opacity: 0;
+            transition: opacity 2s, font-size 2s, letter-spacing 2s;
+            border-radius: 20PX;
+            font-size: 0.5em;
+        }
+        .title:hover{
+            cursor: pointer;
+            width: 80vw;
+            letter-spacing: 1em;
+            box-shadow: 5px 3px 15px #f67732e2, -5px -3px 15px rgb(153, 21, 21);
+        }
+        .title:hover::before{
+            opacity: 1;
+            font-size: 1em;
+            letter-spacing: 0.5em;
+        }
+    }
   }
