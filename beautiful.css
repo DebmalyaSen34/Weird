@@ -30,6 +30,121 @@ header{
     justify-content: center;
     
 }
+@media all and (min-width: 801px){
+    .title{
+        position: relative;
+        background: linear-gradient(135deg, #9643b6, rgb(231, 108, 174));
+        box-shadow: 5px 3px 15px  rgb(231, 108, 174), -5px -3px 15px  #9643b6;
+        width: 20vw;
+        height: 4vh;
+        border-radius: 20px;
+        text-align: center;
+        font-family: changa;
+        color: white;
+        font-size: 1em;
+        letter-spacing: 0.5em;
+        transition: width 2s, letter-spacing 2s, background-color 2s, box-shadow 2s;
+    }
+    .title::before{
+        font-family: changa;
+        content: "CAINCO & METH";
+        padding: 5px 0px;
+        position: absolute;
+        top: -5px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(45deg, #f67732e2, rgb(153, 21, 21));
+        opacity: 0;
+        transition: opacity 2s, font-size 2s, letter-spacing 2s;
+        border-radius: 20PX;
+        font-size: 0.5em;
+    }
+    .title:hover{
+        cursor: pointer;
+        width: 80vw;
+        letter-spacing: 1em;
+        box-shadow: 5px 3px 15px #f67732e2, -5px -3px 15px rgb(153, 21, 21);
+    }
+    .title:hover::before{
+        opacity: 1;
+        font-size: 1em;
+        letter-spacing: 3em;
+    }
+    .friend-container{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        width: 200px;
+        height: 155vh !important;
+        background: linear-gradient(135deg, #9643b6, rgb(231, 108, 174));
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    .abhipic, .debpic, .vamsipic, .achupic, .mridpic, .sragvipic{
+        width: 100px;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0px 15px 30px black;
+        background: linear-gradient(45deg, #f67732e2, rgb(153, 21, 21));
+        z-index: 7;
+    }
+    .abhi-div, .deb-div, .vamsi-div, .achu-div, .mrid-div, .sragvi-div{
+        height: 80.8vh !important;
+        padding-top: 15px;
+        margin-top: -20px;
+        margin-bottom: -10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: whitesmoke;
+        border-radius: 0 0 10px 10px;
+        border: 2px solid red;
+    }
+    footer{
+        display: grid;
+        place-items: center;
+    }
+    .newyear{
+        position: relative;
+        background: linear-gradient(135deg, #9643b6, rgb(231, 108, 174));
+        box-shadow: 5px 3px 15px  rgb(231, 108, 174), -5px -3px 15px  #9643b6;
+        width: 20vw;
+        height: 4vh;
+        border-radius: 20px;
+        text-align: center;
+        font-family: changa;
+        color: white;
+        font-size: 1em;
+        letter-spacing: 0.5em;
+        transition: width 2s, letter-spacing 2s, background-color 2s, box-shadow 2s;
+    }
+    .newyear::before{
+        font-family: changa;
+        content: "HAPPY NEW YEAR!";
+        padding: 5px 0px;
+        position: absolute;
+        top: -5px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(45deg, #f67732e2, rgb(153, 21, 21));
+        opacity: 0;
+        transition: opacity 2s, font-size 2s, letter-spacing 2s;
+        border-radius: 20PX;
+        font-size: 0.5em;
+    }
+    .newyear:hover{
+        cursor: pointer;
+        width: 80vw;
+        letter-spacing: 1em;
+        box-shadow: 5px 3px 15px #f67732e2, -5px -3px 15px rgb(153, 21, 21);
+    }
+    .newyear:hover::before{
+        opacity: 1;
+        font-size: 1em;
+        letter-spacing: 3em;
+    }
+}
 nav{
     margin-top: 10px;
     display: flex;
@@ -211,7 +326,7 @@ p{
     overflow: scroll;
     height: 50%;
 }
-#varshitha, #mrid-relation, #sragvi-relation{
+#varshitha, #mrid-relation, #sragvi-relation, #mrid-char, #vamsi-char, #deb-char, #achu-char, #srag-char{
     height: fit-content;
 }
 .annotation{
@@ -490,6 +605,9 @@ ul li:hover span {
             opacity: 1;
             font-size: 1em;
             letter-spacing: 0.5em;
+        }
+        footer{
+            display: none;
         }
     }
   }
