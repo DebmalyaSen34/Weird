@@ -452,7 +452,7 @@ ul li:hover span {
         height: 70.8vh;
     }
     .abhi-div, .deb-div, .vamsi-div, .achu-div, .mrid-div, .sragvi-div{
-        height: 78vh;
+        height: 60vh;
     }
     @media all and (max-width: 1080px){
         .title{
