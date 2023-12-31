@@ -449,7 +449,7 @@ ul li:hover span {
         height: 50px;
     }
     .para2{
-        height: 70.8vh;
+        height: 70vh;
     }
     @media all and (max-width: 1080px){
         .title{
