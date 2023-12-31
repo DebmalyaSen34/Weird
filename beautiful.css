@@ -451,9 +451,6 @@ ul li:hover span {
     .para2{
         height: 70.8vh;
     }
-    .abhi-div, .deb-div, .vamsi-div, .achu-div, .mrid-div, .sragvi-div{
-        height: 60vh;
-    }
     @media all and (max-width: 1080px){
         .title{
             position: relative;
