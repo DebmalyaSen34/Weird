@@ -185,7 +185,7 @@ p{
     font-family: changa;
 }
 .abhi-div, .deb-div, .vamsi-div, .achu-div, .mrid-div, .sragvi-div{
-    height: 82vh;
+    height: 81vh;
     padding-top: 15px;
     margin-top: -20px;
     margin-bottom: -10px;
@@ -210,7 +210,6 @@ p{
     margin-bottom: -17px;
     overflow: scroll;
     height: 50%;
-    border: 2px solid black
 }
 #varshitha, #mrid-relation, #sragvi-relation{
     height: fit-content;
