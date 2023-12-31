@@ -79,7 +79,6 @@ header{
         height: 155vh !important;
         background: linear-gradient(135deg, #9643b6, rgb(231, 108, 174));
         border-radius: 10px;
-        border: 2px solid black;
     }
     .abhipic, .debpic, .vamsipic, .achupic, .mridpic, .sragvipic{
         width: 100px;
@@ -98,7 +97,6 @@ header{
         margin-right: 5px;
         background-color: whitesmoke;
         border-radius: 0 0 10px 10px;
-        border: 2px solid red;
     }
     footer{
         display: grid;
