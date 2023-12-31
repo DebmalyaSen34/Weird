@@ -140,7 +140,7 @@ header{
     .newyear:hover::before{
         opacity: 1;
         font-size: 1em;
-        letter-spacing: 3em;
+        letter-spacing: 2em;
     }
 }
 nav{
