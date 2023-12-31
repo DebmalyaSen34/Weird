@@ -4,19 +4,19 @@
 }
 @font-face {
     font-family: rubik;
-    src: url(../Fonts/RubikDoodleShadow-Regular.ttf);
+    src: url("../Fonts/RubikDoodleShadow-Regular.ttf");
 }
 @font-face {
     font-family: changa;
-    src: url(../Fonts/Changa-VariableFont_wght.ttf);
+    src: url("../Fonts/Changa-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: silkreg;
-    src: url(../Fonts/Silkscreen-Regular.ttf);
+    src: url("../Fonts/Silkscreen-Regular.ttf");
 }
 @font-face {
     font-family: stencil;
-    src: url(../Fonts/BigShouldersStencilDisplay-VariableFont_wght.ttf);
+    src: url("../Fonts/BigShouldersStencilDisplay-VariableFont_wght.ttf");
 }
 body{
     margin-block-start: 0px;
@@ -29,31 +29,6 @@ header{
     align-items: center;
     justify-content: center;
     
-}
-.male{
-    margin-top: 5px;
-    margin-left: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-}
-.male:hover{
-    cursor: pointer;
-}
-.logintell{
-    font-family: changa;
-    color: white;
-    position: absolute;
-    top: 0px;
-    left: 45px;
-    margin-top: 10px;
-    margin-left: 5px;
-    width: fit-content;
-}
-.logintell:hover{
-    cursor: pointer;
-    color: #9643b6;
 }
 nav{
     margin-top: 10px;
@@ -109,7 +84,7 @@ p, h3{
 }
 #abhi-dancer h2, #deb-bat h2, #vamsi-supes h2, #achu-mallu h2, #mrid-kid h2, #sragvi-sing h2{
     position: relative;
-    top: -15px;
+    top: -35px;
     margin-top: 0px;
     color: white;
     font-family: changa;
