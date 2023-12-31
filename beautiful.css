@@ -142,6 +142,10 @@ header{
         font-size: 1em;
         letter-spacing: 2em;
     }
+    .body-container{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
 nav{
     margin-top: 10px;
