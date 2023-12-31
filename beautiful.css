@@ -210,6 +210,7 @@ p{
     margin-bottom: -17px;
     overflow: scroll;
     height: 70%;
+    border: 2px solid black
 }
 #varshitha, #mrid-relation, #sragvi-relation{
     height: fit-content;
