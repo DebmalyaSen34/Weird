@@ -185,7 +185,7 @@ p{
     font-family: changa;
 }
 .abhi-div, .deb-div, .vamsi-div, .achu-div, .mrid-div, .sragvi-div{
-    height: 78vh;
+    height: 80vh;
     padding-top: 15px;
     margin-top: -20px;
     margin-bottom: -10px;
@@ -427,7 +427,7 @@ ul li:hover span {
   @media all and (min-width: 360px){
     .friend-container{
         width: 80vw;
-        height: 133vh;
+        height: 140vh;
     }
     .friend-container img{
         width: 80vw;
